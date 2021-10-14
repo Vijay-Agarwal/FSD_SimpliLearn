@@ -1,5 +1,6 @@
-# FSD_SimpliLearn_Phase_One
-First Project in Full Stack Developer Course
+# FSD_SimpliLearn
+->Daily Learning
+->First Project in Full Stack Developer Course
 
 Used Tools:
 Java
