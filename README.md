@@ -5,3 +5,5 @@
 Used Tools:
 Java
 Eclipse
+Maven
+Hibernate
