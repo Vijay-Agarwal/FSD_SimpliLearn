@@ -1,7 +1,7 @@
 ### FSD_SimpliLearn ###
 
 ->Daily Learning Commit
-->First Projects Commited During Course.
+->Projects Commited During Course.
 
 Phase One(Implement OOPS using JAVA with Data Structures and Beyond):
 ->Agile Scrun Foundation
@@ -21,7 +21,6 @@ Phase Three(Implement Frameworks the DevOps way):
 
 
 Used Tools:
-Java
 Eclipse
-Maven
-Hibernate
+Apache Tomcat 9.0.46
+Maven 3.8.3
