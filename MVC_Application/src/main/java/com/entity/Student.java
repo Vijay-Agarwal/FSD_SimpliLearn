@@ -1,20 +1,21 @@
 package com.entity;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity					// class level annotaiton 
-@Table(name="student")
+@Entity
 public class Student {
-@Id											// the column which contains pk 
-@Column(name="sid")
-private int sid;
-@Column(name="name")
-private String name;
-@Column(name="age")
-private int age;
+@Id
+private int sid;									//PK		100
+private String name;							// Ajay 
+private int age;									// 21
+private int scid;									// FK   1122 
+public int getScid() {
+	return scid;
+}
+public void setScid(int scid) {
+	this.scid = scid;
+}
 public int getSid() {
 	return sid;
 }
@@ -37,6 +38,5 @@ public void setAge(int age) {
 public String toString() {
 	return "Student [sid=" + sid + ", name=" + name + ", age=" + age + "]";
 }
-
 
 }

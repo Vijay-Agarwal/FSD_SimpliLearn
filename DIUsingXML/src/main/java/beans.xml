@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+<bean class="com.Employee" id="Emp1" scope="singleton"></bean>
+<bean class="com.Employee" id="Emp2" scope="prototype"></bean>
+<bean class="com.Employee" id="Emp3" >
+    <constructor-arg value="100"></constructor-arg>
+    <constructor-arg value="Raj"></constructor-arg>
+    <constructor-arg value="12000"></constructor-arg>
+</bean>
+</beans>
