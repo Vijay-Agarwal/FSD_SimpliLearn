@@ -1,3 +1,4 @@
+//Data Access Object (Dao Layer) for pure database logic
 package com.dao;
 
 import java.util.List;

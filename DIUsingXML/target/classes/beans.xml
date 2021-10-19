@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.2.xsd"
+	default-lazy-init="true"
+	>
 
 <bean class="com.Employee" id="Emp1" scope="singleton"></bean>
 <bean class="com.Employee" id="Emp2" scope="prototype"></bean>
@@ -9,5 +11,24 @@
     <constructor-arg value="100"></constructor-arg>
     <constructor-arg value="Raj"></constructor-arg>
     <constructor-arg value="12000"></constructor-arg>
+</bean>
+<bean class="com.Employee" id="Emp4">
+	<property name="id" value="101"></property>
+	<property name="name" value="Raju"></property>
+	<property name="salary" value="140000"></property>
+</bean>
+<bean class="com.Employee" id="Emp5">
+	<property name="id" value="102"></property>
+	<property name="name" value="Raju"></property>
+</bean>
+<bean class="com.Address" id="address">
+	<property name="city" value="Meerut"></property>
+	<property name="state" value="UP"></property>
+</bean>
+<bean class="com.Employee" id="Emp6" autowire="byType"> <!--  autowire="byName":: for multiple references ie address1, address2 etc-->
+	<property name="id" value="103"></property>
+	<property name="name" value="Mahesh"></property>
+	<property name="salary" value="150000"></property>
+	<!-- 	<property name="add" ref="address"	></property> -->
 </bean>
 </beans>

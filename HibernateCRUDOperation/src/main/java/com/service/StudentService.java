@@ -1,3 +1,5 @@
+//Service layer is responsible for pure business logic
+
 package com.service;
 
 import java.util.List;
