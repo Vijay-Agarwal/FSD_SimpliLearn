@@ -1,0 +1,72 @@
+
+<div class="container">
+<h3 style="font-weight: lighter;padding-top: 0.5em;"><img src="assets/Basic Images/medicare-logo.png" style="width: 100px;" alt='image not found'>&nbsp;&nbsp;&nbsp;&nbsp;<a routerLink="/about" mat-button color="primary">About</a>&nbsp;&nbsp;&nbsp;&nbsp;<a routerLink="/" mat-button color="primary">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a mat-button color="primary">ViewProducts</a>
+
+
+<a routerLink="/register" class="custom-button" style="margin-left: 10px; color: black; margin-left: 400px !important; ">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;<a routerLink="/login" class="custom-button" style="color: black;">Login</a>&nbsp;&nbsp;</h3>
+</div>
+<hr>
+<br>
+        <table class="table">
+            <tr>
+                <td style="vertical-align: top; display:flex; flex-direction: column; background: #c8f1ca; margin-left:5rem; padding: 3rem; border-radius: 3rem; ">
+                    <span>Antipyretics</span>
+                    <span>Analgesics</span>
+                    <span>Antibiotics</span>
+                    <span>Contraceptive</span>
+                    <span>and much more....</span>
+                </td>
+                <td>
+                    <div class="container col-9 offset-2" style="box-shadow: 0px 0px 20px 10px rgb(250, 39, 39);border-radius: 10px;">
+                    <div id="carouselExampleFade" class="carousel carousel-light slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container text-center">
+                                <img src="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/medicare-logo.png" width="1000px" height="300px" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container text-center">
+                                <img src="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/slide1.jpg" width="1000px" height="300px" alt="...">
+                            </div>
+                            
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container text-center">
+                                <img src="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/slide3.jpg" width="1000px" height="300px" alt="...">
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <div class="container col-9 offset-3" >
+            <h3 style="font-weight: lighter;">Most Bought Medicines on Medicare</h3>
+            <hr>
+            <table class="table table-borderless">
+                <tr><td><app-card mycustomurl={{testImageUrlItem1}}></app-card></td><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/clavam_625mg_tablet.jpg"></app-card></td><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/azithromycin-tablets-ip-500-mg.webp"></app-card></td></tr>
+                <tr><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/dolo-650.jpeg"></app-card></td><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/durex-condom.jpg"></app-card></td><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/most-bought1.webp"></app-card></td></tr>
+                <tr><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/most-bought2.jpg" subtext="Uplizna"></app-card></td><td><app-card mycustomurl="https://raw.githubusercontent.com/psudohuman/Simplilearn-Capstone-photos/main/a-to-z-tablets.jpg"></app-card></td><td><app-card mycustomurl="https://raw.githubusercontent.com/Bharath7353/staticfilesforangular/master/item9.jpg"></app-card></td></tr>
+            </table>
+        </div>
+        <br>
+        <br>
